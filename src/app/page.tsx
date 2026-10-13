@@ -334,7 +334,7 @@ I'm really interested in Artificial Intelligence and Machine Learning, especiall
             <h2 className="text-3xl font-bold tracking-tight text-[#EAEAEA] sm:text-4xl">
               Contact Me
             </h2>
-            <p className="mx-auto mt-2 max-w-xl text-sm leading-6 text-[#787878] sm:text-base">
+            <p className="mx-auto mt-5 max-w-xl text-sm leading-6 text-[#787878] sm:text-base">
               Feel free to reach out if you would like to connect, collaborate,
               or discuss a project or research idea.
             </p>
