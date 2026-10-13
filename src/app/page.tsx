@@ -316,6 +316,18 @@ I'm really interested in Artificial Intelligence and Machine Learning, especiall
 
         </section>
 
+        {/* My Projects */}
+        <section
+          id="projects"
+          className="w-full border-t border-[#2A2C32] py-16" >
+
+          <h3 className="mb-5 text-xl font-bold text-[#EAEAEA]">
+            My Projects
+          </h3>
+
+        </section>
+
+
         {/* Contact */}
         <section id="contact" className="w-full border-t border-[#2A2C32] py-16">
           <div className="mb-10 text-center">
