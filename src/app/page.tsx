@@ -316,15 +316,32 @@ I'm really interested in Artificial Intelligence and Machine Learning, especiall
 
         </section>
 
-        {/* My Projects */}
+  {/* My Projects */}
         <section
           id="projects"
-          className="w-full border-t border-[#2A2C32] py-16" >
+          className="w-full border-t border-[#2A2C32] py-16"
+        >
+          <h3 className="mb-8 text-xl font-bold text-[#EAEAEA]">My Projects</h3>
 
-          <h3 className="mb-5 text-xl font-bold text-[#EAEAEA]">
-            My Projects
-          </h3>
+          <div className="flex flex-col gap-4 ml-5">
+            <h4 className="text-lg font-bold text-[#EAEAEA]">CrickScore</h4>
 
+            <p className="max-w-3xl text-sm leading-7 text-[#787878] sm:text-base">
+              I built CrickScore to keep track of ball-by-ball scores and match
+              history for the cricket matches my brother and I play together at
+              home.
+            </p>
+
+            <a
+              href="https://crickscore-rubayet.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-sm font-semibold text-[#BA5B55] transition-colors hover:text-[#EAEAEA]"
+            >
+              <Link />
+              <p className="leading-none ">crickscore-rubayet.vercel.app</p>
+            </a>
+          </div>
         </section>
 
 
