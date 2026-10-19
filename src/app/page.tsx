@@ -1,5 +1,6 @@
 import Image from "next/image";
 import myImage from "../assets/me.jpg";
+import { Link } from "@mynaui/icons-react";
 
 export default function Home() {
   return (
