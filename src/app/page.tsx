@@ -1,6 +1,6 @@
 import Image from "next/image";
 import myImage from "../assets/me.jpg";
-import { Link } from "@mynaui/icons-react";
+import { Github, Link } from "@mynaui/icons-react";
 
 export default function Home() {
   return (
@@ -142,7 +142,7 @@ export default function Home() {
                 alt="Rowshan Rubayet"
                 fill
                 priority
-                unoptimized
+                unoptimized // <-- Add this to serve the original, untouched image
                 className="object-cover"
               />
             </div>
@@ -205,7 +205,7 @@ export default function Home() {
                 <p className="mt-4 text-3xl font-bold text-[#EAEAEA]">
                   3.85
                   <span className="ml-1 text-sm font-medium text-[#787878]">
-                  CGPA — 9th Trimester (Ongoing)
+                    CGPA — 9th Trimester (Ongoing)
                   </span>
                 </p>
               </div>
@@ -214,7 +214,9 @@ export default function Home() {
 
           {/* Experience */}
           <div className="flex flex-col">
-            <h3 className="mb-8 text-xl font-bold text-[#EAEAEA]">Experience</h3>
+            <h3 className="mb-8 text-xl font-bold text-[#EAEAEA]">
+              Experience
+            </h3>
 
             <div className="relative pl-8">
               <div className="absolute left-1.25 top-2.25 h-[calc(100%-8px)] w-px bg-[#2A2C32]" />
@@ -259,7 +261,7 @@ export default function Home() {
               {[
                 {
                   label: "Programming Languages",
-                  skills: ["C", "C++", "Java", "Php", "JavaScript", "Python"],
+                  skills: ["C", "C++", "Java", "JavaScript", "Python"],
                 },
                 {
                   label: "Web Development",
@@ -297,13 +299,22 @@ export default function Home() {
             <h3 className="mb-5 text-xl font-bold text-[#EAEAEA]">
               Interests & Focus Areas
             </h3>
-            
+
             <p className="mb-6 max-w-3xl text-sm leading-7 text-[#787878] sm:text-base">
-I'm really interested in Artificial Intelligence and Machine Learning, especially working with Large Language Models (LLMs). Besides coding, I love doing research to find new solutions and teaching others what I've learned.
+              I'm really interested in Artificial Intelligence and Machine
+              Learning, especially working with Large Language Models (LLMs).
+              Besides coding, I love doing research to find new solutions and
+              teaching others what I've learned.
             </p>
 
             <div className="flex flex-wrap gap-2">
-              {["Artificial Intelligence", "Machine Learning", "LLMs", "Research", "Teaching"].map((interest) => (
+              {[
+                "Artificial Intelligence",
+                "Machine Learning",
+                "LLMs",
+                "Research",
+                "Teaching",
+              ].map((interest) => (
                 <span
                   key={interest}
                   className="rounded-md bg-[#1C1D22] px-3 py-1.5 text-sm font-medium text-[#BA5B55] ring-1 ring-inset ring-[#2A2C32]"
@@ -313,41 +324,76 @@ I'm really interested in Artificial Intelligence and Machine Learning, especiall
               ))}
             </div>
           </div>
-
-
         </section>
 
-  {/* My Projects */}
+        {/* My Projects */}
         <section
           id="projects"
-          className="w-full border-t border-[#2A2C32] py-16"
+          className="w-full border-t border-[#2A2C32] py-16 flex flex-col gap-8"
         >
-          <h3 className="mb-8 text-xl font-bold text-[#EAEAEA]">My Projects</h3>
+          <h3 className="text-xl font-bold text-[#EAEAEA]">My Projects</h3>
 
-          <div className="flex flex-col gap-4 ml-5">
-            <h4 className="text-lg font-bold text-[#EAEAEA]">CrickScore</h4>
+          <div className="flex flex-col gap-4 p-4 rounded-lg bg-[#1C1D22] ring-1 ring-inset ring-[#2A2C32] ">
+            <h4 className="text-lg font-bold text-[#EAEAEA]">Project name</h4>
 
             <p className="max-w-3xl text-sm leading-7 text-[#787878] sm:text-base">
-              I built CrickScore to keep track of ball-by-ball scores and match
-              history for the cricket matches my brother and I play together at
-              home.
+              Here I will write the project description when I complete a
+              project and add here.
             </p>
 
             <a
-              href="https://crickscore-rubayet.vercel.app"
+              href="/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm font-semibold text-[#BA5B55] transition-colors hover:text-[#EAEAEA]"
             >
               <Link />
-              <p className="leading-none ">crickscore-rubayet.vercel.app</p>
+              <p className="leading-none ">project link</p>
+            </a>
+            <a
+              href="/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-sm font-semibold text-[#BA5B55] transition-colors hover:text-[#EAEAEA]"
+            >
+              <Github />
+              <p className="leading-none mb-px">github link of the project</p>
+            </a>
+          </div>
+          <div className="flex flex-col gap-4 p-4 rounded-lg bg-[#1C1D22] ring-1 ring-inset ring-[#2A2C32] ">
+            <h4 className="text-lg font-bold text-[#EAEAEA]">Project name</h4>
+
+            <p className="max-w-3xl text-sm leading-7 text-[#787878] sm:text-base">
+              Here I will write the project description when I complete a
+              project and add here.
+            </p>
+
+            <a
+              href="/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-sm font-semibold text-[#BA5B55] transition-colors hover:text-[#EAEAEA]"
+            >
+              <Link />
+              <p className="leading-none ">project link</p>
+            </a>
+            <a
+              href="/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-sm font-semibold text-[#BA5B55] transition-colors hover:text-[#EAEAEA]"
+            >
+              <Github />
+              <p className="leading-none mb-px">github link of the project</p>
             </a>
           </div>
         </section>
 
-
         {/* Contact */}
-        <section id="contact" className="w-full border-t border-[#2A2C32] py-16">
+        <section
+          id="contact"
+          className="w-full border-t border-[#2A2C32] py-16"
+        >
           <div className="mb-10 text-center">
             <h2 className="text-3xl font-bold tracking-tight text-[#EAEAEA] sm:text-4xl">
               Contact Me
@@ -419,7 +465,7 @@ I'm really interested in Artificial Intelligence and Machine Learning, especiall
                   <circle cx="12" cy="10" r="3" />
                 </svg>
               </div>
-              <p className="text-sm text-[#787878]">Current location</p>
+              <p className="text-sm text-[#787878]">Based in</p>
               <p className="mt-0.5 font-semibold text-[#EAEAEA]">
                 Dhaka, Bangladesh
               </p>
