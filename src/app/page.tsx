@@ -333,58 +333,36 @@ export default function Home() {
         >
           <h3 className="text-xl font-bold text-[#EAEAEA]">My Projects</h3>
 
-          <div className="flex flex-col gap-4 p-4 rounded-lg bg-[#1C1D22] ring-1 ring-inset ring-[#2A2C32] ">
-            <h4 className="text-lg font-bold text-[#EAEAEA]">Project name</h4>
+          <div className="flex flex-col gap-4 p-6 rounded-lg bg-[#1C1D22] ring-1 ring-inset ring-[#2A2C32]">
+            <h4 className="text-lg font-bold text-[#EAEAEA]">Ru'sAuth</h4>
 
-            <p className="max-w-3xl text-sm leading-7 text-[#787878] sm:text-base">
-              Here I will write the project description when I complete a
-              project and add here.
+            <p className="text-sm leading-7 text-[#787878] sm:text-base">
+              Ru’sAuth is a secure authentication system built with Next.js,
+              PostgreSQL, and TypeScript. It features email and Google sign-in,
+              OTP verification, password management, multi-device session
+              control, and a dedicated admin dashboard, with a strong focus on
+              security, privacy, and reliable access management.
             </p>
 
             <a
-              href="/"
+              href="https://rusauth.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-sm font-semibold text-[#BA5B55] transition-colors hover:text-[#EAEAEA]"
+              className="w-fit inline-flex items-center gap-2 text-sm font-semibold text-[#BA5B55] transition-colors hover:text-[#EAEAEA]"
             >
               <Link />
-              <p className="leading-none ">project link</p>
+              <p className="leading-none ">rusauth.vercel.app</p>
             </a>
             <a
-              href="/"
+              href="https://github.com/rubayet-off/portfolio"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-sm font-semibold text-[#BA5B55] transition-colors hover:text-[#EAEAEA]"
+              className="w-fit inline-flex items-center gap-2 text-sm font-semibold text-[#BA5B55] transition-colors hover:text-[#EAEAEA]"
             >
               <Github />
-              <p className="leading-none mb-px">github link of the project</p>
-            </a>
-          </div>
-          <div className="flex flex-col gap-4 p-4 rounded-lg bg-[#1C1D22] ring-1 ring-inset ring-[#2A2C32] ">
-            <h4 className="text-lg font-bold text-[#EAEAEA]">Project name</h4>
-
-            <p className="max-w-3xl text-sm leading-7 text-[#787878] sm:text-base">
-              Here I will write the project description when I complete a
-              project and add here.
-            </p>
-
-            <a
-              href="/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-sm font-semibold text-[#BA5B55] transition-colors hover:text-[#EAEAEA]"
-            >
-              <Link />
-              <p className="leading-none ">project link</p>
-            </a>
-            <a
-              href="/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-sm font-semibold text-[#BA5B55] transition-colors hover:text-[#EAEAEA]"
-            >
-              <Github />
-              <p className="leading-none mb-px">github link of the project</p>
+              <p className="leading-none mb-px">
+                github.com {"->"} rubayet-off {"->"} portfolio
+              </p>
             </a>
           </div>
         </section>
