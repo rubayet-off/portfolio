@@ -354,14 +354,14 @@ export default function Home() {
               <p className="leading-none ">rusauth.vercel.app</p>
             </a>
             <a
-              href="https://github.com/rubayet-off/portfolio"
+              href="https://github.com/rubayet-off/Ru-sAuth"
               target="_blank"
               rel="noopener noreferrer"
               className="w-fit inline-flex items-center gap-2 text-sm font-semibold text-[#BA5B55] transition-colors hover:text-[#EAEAEA]"
             >
               <Github />
               <p className="leading-none mb-px">
-                github.com {"->"} rubayet-off {"->"} portfolio
+                github.com {"->"} rubayet-off {"->"} Ru-sAuth
               </p>
             </a>
           </div>
