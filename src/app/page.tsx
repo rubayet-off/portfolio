@@ -203,9 +203,9 @@ export default function Home() {
                   United International University
                 </p>
                 <p className="mt-4 text-3xl font-bold text-[#EAEAEA]">
-                  3.85
+                  3.88
                   <span className="ml-1 text-sm font-medium text-[#787878]">
-                    CGPA — 9th Trimester (Ongoing)
+                    CGPA — 10th Trimester (Ongoing)
                   </span>
                 </p>
               </div>
