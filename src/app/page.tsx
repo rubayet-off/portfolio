@@ -232,14 +232,14 @@ export default function Home() {
               </div>
 
               <p className="mt-1 text-sm font-medium text-[#787878]">
-                Database Management Systems · United International University
+                Database Management Systems, Structured Programming Laboratory
               </p>
 
               <p className="mt-4 max-w-3xl text-sm leading-7 text-[#787878] sm:text-base">
                 Serving as an Undergraduate Assistant for the Database
-                Management Systems course, where I provide academic counseling
-                to students, help them understand database concepts, and assist
-                with resolving project-related issues.
+                Management Systems and Structured Programming Laboratory courses at United International University, where I provide academic counseling
+                to students, help them understand the basic programming and database concepts, and assist
+                with resolving coding and project-related issues.
               </p>
             </div>
           </div>
