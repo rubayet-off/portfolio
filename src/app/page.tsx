@@ -162,7 +162,7 @@ export default function Home() {
             <div className="grid gap-8 sm:grid-cols-3">
               <div className="border-l-2 border-[#2A2C32] pl-5">
                 <p className="text-sm font-semibold text-[#BA5B55]">
-                  Secondary School Certificate
+                  Secondary School Certificate (SSC)
                 </p>
                 <h4 className="mt-1 text-base font-bold text-[#EAEAEA]">
                   Dhanmondi Govt. Boys&apos; High School
@@ -178,7 +178,7 @@ export default function Home() {
 
               <div className="border-l-2 border-[#2A2C32] pl-5">
                 <p className="text-sm font-semibold text-[#BA5B55]">
-                  Higher Secondary Certificate
+                  Higher Secondary Certificate (HSC)
                 </p>
                 <h4 className="mt-1 text-base font-bold text-[#EAEAEA]">
                   Dhaka Imperial College
@@ -194,13 +194,16 @@ export default function Home() {
 
               <div className="border-l-2 border-[#2A2C32] pl-5">
                 <p className="text-sm font-semibold text-[#BA5B55]">
-                  Bachelor of Science
+                  Bachelor of Science (BSCSE)
                 </p>
                 <h4 className="mt-1 text-base font-bold text-[#EAEAEA]">
                   Computer Science &amp; Engineering
                 </h4>
-                <p className="mt-1 text-sm text-[#787878]">
+                <p className="mt-1 text-sm text-[#EAEAEA]">
                   United International University
+                </p>
+                <p className="mt-1 text-sm text-[#787878]">
+                  Madani Avenue, Dhaka, Bangladesh
                 </p>
                 <p className="mt-4 text-3xl font-bold text-[#EAEAEA]">
                   3.88
@@ -236,10 +239,10 @@ export default function Home() {
               </p>
 
               <p className="mt-4 max-w-3xl text-sm leading-7 text-[#787878] sm:text-base">
-                Serving as an Undergraduate Assistant for the Database
-                Management Systems and Structured Programming Laboratory courses at United International University, where I provide academic counseling
-                to students, help them understand the basic programming and database concepts, and assist
-                with resolving coding and project-related issues.
+                Serving as an Undergraduate Assistant for the Database Management Systems and Structured 
+                Programming Laboratory courses at United International University, providing academic 
+                guidance to students, helping them understand fundamental programming and database 
+                concepts, and assisting them with coding and project-related challenges.
               </p>
             </div>
           </div>
@@ -301,10 +304,11 @@ export default function Home() {
             </h3>
 
             <p className="mb-6 max-w-3xl text-sm leading-7 text-[#787878] sm:text-base">
-              I'm really interested in Artificial Intelligence and Machine
-              Learning, especially working with Large Language Models (LLMs).
-              Besides coding, I love doing research to find new solutions and
-              teaching others what I've learned.
+              I am passionate about Artificial Intelligence and Machine Learning, particularly 
+              Large Language Models (LLMs). I also have a strong interest in web development and 
+              building practical, user-centric applications. Beyond software development, 
+              I am enthusiastic about research, exploring new ideas, and sharing my knowledge 
+              through teaching and mentoring others.
             </p>
 
             <div className="flex flex-wrap gap-2">
